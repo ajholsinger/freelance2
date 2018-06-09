@@ -13,6 +13,10 @@ a:hover {
   cursor: pointer;
 }
 
+.section1 {
+  height: 100vh;
+}
+
 .section1-background {
   z-index: -100;
   height: 100%;
@@ -47,9 +51,14 @@ a:hover {
   margin: 20px;
 }
 
+.greyH:hover {
+  opacity: .6;
+  cursor: pointer;
+}
+
 .nameRow {
   text-align: center;
-  height: 60vh;
+  height: 50vh;
 }
 
 .home-name {
@@ -64,3 +73,102 @@ a:hover {
   color: #e1e1e1;
   font-size: 25px;
 }
+
+.socialRow {
+  height: 40vh;
+  text-align: right;
+}
+
+.social-image {
+  margin: 10px;
+  height: 25px;
+  width: 25px;
+}
+
+.social-image:hover {
+  cursor: pointer;
+  opacity: .5;
+}
+
+.social-media {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+#facebook {
+  height: 30px;
+  width: 30px;
+  margin: 5px;
+}
+
+/* SECTION 2 CONTROLS */
+
+.section2 {
+  height: 100vh;
+}
+.section2-background {
+  z-index: -50;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.expRow {
+  height: 10vh;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.h3experience {
+  margin: 20px;
+  font-size: 35px;
+  text-align: center;
+}
+
+
+/* MEDIA QUERIES*/
+@media screen and (max-width: 600px) {
+  .header-nav {
+    font-size: 10px;
+  }
+
+  .home-name {
+    width: 75%;
+    font-size: 25px;
+    margin-top: 250px;
+  }
+
+  .home-job {
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1399px) {
+  .header-nav {
+    font-size: 20px;
+  }
+
+  .home-name {
+    width: 75%;
+    font-size: 30px;
+    margin-top: 350px;
+  }
+
+  .home-job {
+    font-size: 25px;
+  }
+
+  .social-image {
+    height: 40px;
+    width: 40px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+}
+
+@media screen and (min-width: 1600px) {
+}
+
