@@ -208,17 +208,17 @@ a:hover {
 
   .section1 {
     height: 100%;
-    margin: 0;
+    margin: auto;
   }
 
   .section2 {
     height: 100%;
-    margin: 0;
+    margin: auto;
   }
 
   .section2con {
     height: 100vh;
-    margin: 0 auto;
+    margin: auto;
   }
 
   .social-image {
