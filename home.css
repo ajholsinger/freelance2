@@ -216,6 +216,11 @@ a:hover {
     margin: 0;
   }
 
+  .section2con {
+    height: 100vh;
+    margin: 0 auto;
+  }
+
   .social-image {
     height: 20px;
     width: 20px;
