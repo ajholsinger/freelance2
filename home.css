@@ -221,6 +221,7 @@ a:hover {
   .section2con {
     height: 100vh;
     margin: auto;
+    margin-bottom: 0;
   }
 
   .social-image {
