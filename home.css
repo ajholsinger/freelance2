@@ -209,11 +209,13 @@ a:hover {
   .section1 {
     height: 100%;
     margin: auto;
+    margin-bottom: 0;
   }
 
   .section2 {
     height: 100%;
     margin: auto;
+    margin-bottom: 0;
   }
 
   .section2con {
